@@ -1,0 +1,181 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #020617;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+.intro-hero {
+    height: 100vh;
+    background:
+        linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
+        url("images/f1.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+
+    animation: zoomBg 20s ease-in-out infinite alternate;
+}
+
+@keyframes zoomBg {
+    from { background-size: 100%; }
+    to { background-size: 110%; }
+}
+
+.intro-hero h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: #38bdf8;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+}
+
+.intro-hero p {
+    max-width: 600px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    opacity: 0.9;
+}
+
+.scroll-hint {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+/* ---------------- SECTIONS ---------------- */
+
+.section {
+    padding: 80px 8%;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #38bdf8;
+}
+
+/* ---------------- CARDS ---------------- */
+
+.card {
+    background: #0f172a;
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 30px;
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(56,189,248,0.15);
+}
+
+/* ---------------- EXPERIENCE / EDUCATION ---------------- */
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* ---------------- PROJECTS ---------------- */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background: #020617;
+    border: 1px solid rgba(56,189,248,0.2);
+    border-radius: 14px;
+    padding: 25px;
+
+    transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    background: #020617;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0ea5e9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------- CONTACT SECTION ---------------- */
+
+.contact {
+    background: linear-gradient(135deg, #020617, #020617);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-links a,
+.contact-links button {
+    background: #38bdf8;
+    color: #020617;
+    padding: 12px 22px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-links a:hover,
+.contact-links button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(56,189,248,0.4);
+}

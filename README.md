@@ -1,54 +1,70 @@
-🏋️ MithunLife – Lifestyle, Gym & Football Blog
+👋 Hi, I'm Mithun Bm
 
-A modern, animated personal blog website focused on:
+🎓 BCA Graduate (2025)
+💻 Aspiring Full-Stack Developer
+🚀 Passionate about building clean, functional web applications
 
-💪 Gym discipline
+👨‍💻 About Me
 
-⚽ Football mindset
+I am a BCA graduate with a strong interest in software development, particularly in web technologies and backend systems. I enjoy building real-world projects that combine structured design, responsive UI, and logical backend thinking.
 
-🧠 Structured lifestyle systems
+I am currently focused on strengthening my fundamentals in frontend development, backend programming, and database design while working toward transitioning into a full-time developer role.
 
-Built using pure HTML, CSS, and JavaScript with smooth animations, dark mode, and responsive design.
+My long-term goal is to grow into a senior developer and contribute to impactful, scalable software systems.
 
-🚀 Features
-✨ UI / UX
-
-Smooth hide-on-scroll header
-
-Glassmorphism navigation bar
-
-Dark mode toggle (CSS variables based)
-
-Responsive layout (mobile + desktop)
-
-Clean hero section with gradient background
-
-🎬 Animations
-
-Scroll-based blog reveal using IntersectionObserver
-
-Hover lift & zoom effects on blog cards
-
-Animated nav underline on hover
-
-Button micro-interactions
-
-Smooth transitions throughout
-
-📩 Contact
-
-Clean Call-To-Action section
-
-Direct email redirect using mailto:
-
-🛠️ Tech Stack
+🛠️ Technical Skills
+Frontend
 
 HTML5
 
-CSS3 (Custom properties / Variables)
+CSS3 (Responsive Design, Animations, CSS Variables)
 
-Vanilla JavaScript
+JavaScript (DOM Manipulation, Events, Intersection Observer)
 
-Intersection Observer API
+Backend
 
-No frameworks. No libraries. Fully lightweight.
+PHP (Basics)
+
+Core Java
+
+MySQL
+
+Tools & Concepts
+
+Git & GitHub
+
+Database Design
+
+Basic Data Structures & Problem Solving
+
+REST fundamentals
+
+🚀 Live Projects
+
+🌐 Portfolio
+https://mith0604.github.io/profile/
+
+🏋️ Gym & Lifestyle Blog
+https://mith0604.github.io/blog/
+
+📚 Currently Improving
+
+Advanced JavaScript concepts
+
+Backend architecture
+
+Full-stack project integration
+
+Clean code practices
+
+Systematic problem solving
+
+📩 Contact Me
+
+📧 Email: mithunbm6@gmail.com
+
+💻 GitHub: https://github.com/Mith0604
+
+🎯 Career Objective
+
+To become a skilled full-stack developer capable of building scalable, user-focused applications while continuously learning and adapting to modern technologies.

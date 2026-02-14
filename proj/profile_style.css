@@ -1,4 +1,5 @@
-/* RESET */
+/* ================= RESET ================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +13,11 @@ html {
 body {
     background: #020617;
     color: #e5e7eb;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* ---------------- HERO SECTION ---------------- */
+/* ================= HERO ================= */
 
 .intro-hero {
     height: 100vh;
@@ -23,7 +25,7 @@ body {
         linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
         url("images/f1.jpg");
     background-size: cover;
-    background-position: center right;
+    background-position: center;
     background-repeat: no-repeat;
 
     display: flex;
@@ -61,7 +63,7 @@ body {
     opacity: 0.6;
 }
 
-/* ---------------- SECTIONS ---------------- */
+/* ================= SECTIONS ================= */
 
 .section {
     padding: 80px 8%;
@@ -69,77 +71,89 @@ body {
 
 .section h2 {
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #38bdf8;
+    text-align: center;
 }
 
-/* ---------------- CARDS ---------------- */
+/* ================= CARDS ================= */
 
 .card {
     background: #0f172a;
-    border-radius: 14px;
-    padding: 30px;
+    border-radius: 16px;
+    padding: 35px;
     margin-bottom: 30px;
-
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(56,189,248,0.15);
+    transform: translateY(-6px);
+    box-shadow: 0 20px 45px rgba(56,189,248,0.15);
 }
-
-/* ---------------- EXPERIENCE / EDUCATION ---------------- */
 
 .card p {
     font-size: 1rem;
-    line-height: 1.6;
     opacity: 0.9;
 }
 
-/* ---------------- PROJECTS ---------------- */
+/* ================= GRID ================= */
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
 }
 
-.project-card {
-    background: #020617;
-    border: 1px solid rgba(56,189,248,0.2);
-    border-radius: 14px;
-    padding: 25px;
+/* ================= PROJECT / SKILL CARDS ================= */
 
-    transition: transform 0.4s ease, background 0.4s ease;
+/* ================= PROJECT / SKILL CARDS ================= */
+
+.project-card {
+    background: #0f172a;
+    border: 1px solid rgba(56,189,248,0.3);
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(56,189,248,0.15);
+    transition: transform 0.4s ease,
+                box-shadow 0.4s ease,
+                border 0.4s ease;
 }
 
 .project-card:hover {
     transform: translateY(-8px);
-    background: #020617;
+    border: 1px solid #38bdf8;
+    box-shadow: 0 25px 55px rgba(56,189,248,0.4);
 }
 
 .project-card h3 {
     color: #38bdf8;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    color: #cbd5e1;
 }
 
 .project-card a {
     display: inline-block;
-    margin-top: 15px;
-    color: #0ea5e9;
+    margin-top: 18px;
+    font-weight: 600;
+    color: #38bdf8;
     text-decoration: none;
-    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-    text-decoration: underline;
+    color: #0ea5e9;
 }
 
-/* ---------------- CONTACT SECTION ---------------- */
+
+
+/* ================= CONTACT ================= */
 
 .contact {
-    background: linear-gradient(135deg, #020617, #020617);
     text-align: center;
     padding: 80px 20px;
 }
@@ -166,16 +180,19 @@ body {
     color: #020617;
     padding: 12px 22px;
     border-radius: 30px;
-    border: none;
     font-weight: bold;
-    cursor: pointer;
     text-decoration: none;
-
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
 }
+
 
 .contact-links a:hover,
 .contact-links button:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(56,189,248,0.4);
 }
+
+
